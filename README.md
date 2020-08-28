@@ -24,7 +24,7 @@ If customer are **not in the supported Kernel**, then below are the option they 
 
 So as a first step do discovery and assessment of the product.
 
-* Ubuntu 16.04 in AWS 
+* EC2 Ubuntu 16.04 instance in AWS 
 
 Png (Ubuntu EC2 instances in AWS) 
 
