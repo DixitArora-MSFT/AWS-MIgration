@@ -22,8 +22,6 @@ If customer are **not in the supported Kernel**, then below are the option they 
 ## If **supported version**, then leverage below step by step instructions and learnings.
 
 
-**Discovery and assessment** tooling helps figure out what is running, how optimally system are running and what really need to migrate to the cloud.  
-
 So as a first step do discovery and assessment of the product.
 
 * Ubuntu 16.04 in AWS 
