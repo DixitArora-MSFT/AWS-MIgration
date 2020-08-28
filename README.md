@@ -40,7 +40,7 @@ Png (Windows EC2 VM for Replication Appliance)
 
    * From windows machine: You can use **putty** for connecting to the instance. Steps for connecting https://comtechies.com/how-to-connect-an-amazon-ec2-ubuntu-linux-instances-using-putty.html
 
-   * Open the sshd_config file by command sudo vi /etc/ssh/sshd_config
+   * Open the sshd_config file by command **sudo vi /etc/ssh/sshd_config**
 
 
    * Find the Line containing **PasswordAuthentication** parameter and change its value from     **no** to **yes** (PasswordAuthentication yes) 
