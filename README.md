@@ -70,7 +70,7 @@ PNG (Validate)
 
 PNG(Validation Completion)
 
-**After performing all the above steps, you will have server in Discovered Servers**
+**After performing all the above steps, you have servers in Discovered Servers**
 
 PNG (Discovered Server in Azure Portal)
 
