@@ -4,7 +4,7 @@
 Customer is looking to Migrate Ubuntu 16.04 EC2 instances hosted in AWS to Azure. Create a POC for this which discuss step by step instructions in migrating a Ubuntu 16.04 hosted in AWS to Azure by Azure Migrate.
 
 ## Checking Migration Supportability
-In the public MS Docs https://docs.microsoft.com/en-us/azure/site-recovery/vmware-physical-azure-support-matrix#ubuntu-kernel-versions , there are a list of generic Linux Kernels that are support for migration to Azure.
+In the public MS Docs https://docs.microsoft.com/en-us/azure/site-recovery/vmware-physical-azure-support-matrix#ubuntu-kernel-versions , there are a list of generic Linux Kernels that are supported for migration to Azure.
 
 So, you can check with your customer what is the current kernel version that is being used in their EC2 instances.
  
