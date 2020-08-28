@@ -10,8 +10,8 @@ So, you can check with your customer **what is the current kernel version that i
  
 Run the following commands to get the OS version & Kernel.
  
-* Run lsb_release -a to get version of Ubuntu
-* Run uname -mrs to get current kernel
+* Run **lsb_release -a** to get version of Ubuntu
+* Run **uname -mrs** to get current kernel
 
 If they are **not in the supported Kernel**, then below are the option we have.
 
