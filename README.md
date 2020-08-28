@@ -36,18 +36,20 @@ Png (Ubuntu EC2 instances in AWS)
 Png (Windows EC2 VM for Replication Appliance) 
 
 
-* At present, **Key based authentication is not supported in Azure Migrate so we should use password authentication**. For this change SSH to password authentication for Ubuntu 16.04 hosted in AWS
+* At present, **Key based authentication is not supported in Azure Migrate so we should use password authentication**. For this, change SSH to password authentication for Ubuntu 16.04 hosted in AWS
 
-* From windows machine: You can use **putty** for connecting to the instance. Steps for connecting https://comtechies.com/how-to-connect-an-amazon-ec2-ubuntu-linux-instances-using-putty.html
+   * From windows machine: You can use **putty** for connecting to the instance. Steps for connecting https://comtechies.com/how-to-connect-an-amazon-ec2-ubuntu-linux-instances-using-putty.html
 
-              * Open the sshd_config file by command sudo vi /etc/ssh/sshd_config
+   * Open the sshd_config file by command sudo vi /etc/ssh/sshd_config
 
 
-* Find the Line containing **PasswordAuthentication** parameter and change its value from     **no** to **yes** (PasswordAuthentication yes) 
+   * Find the Line containing **PasswordAuthentication** parameter and change its value from     **no** to **yes** (PasswordAuthentication yes) 
 
-* Set up **root** login, find  **PermitRootLogin** parameter and change its value from                                                                                                                    **prohibit-password** to **yes**
-             * After the changes, save the file and exit
-* Change the root password for my EC2 Linux instance by    https://aws.amazon.com/premiumsupport/knowledge-center/set-change-root-linux/
+   * Set up **root** login, find  **PermitRootLogin** parameter and change its value from                                                                                                                    **prohibit-password** to **yes**
+   
+   * After the changes, save the file and exit
+   
+   * Change the root password for my EC2 Linux instance by    https://aws.amazon.com/premiumsupport/knowledge-center/set-change-root-linux/
 
 
 ## Some of the learnings from above step: 
