@@ -24,14 +24,14 @@ If customer are **not in the supported Kernel**, then below are the option they 
 
 So as a first step do discovery and assessment of the product.
 
-* EC2 Ubuntu 16.04 instance in AWS 
+* **EC2 Ubuntu 16.04 instance in AWS** 
 
 Png (Ubuntu EC2 instances in AWS) 
 
 * Set up an Azure Migrate project : https://docs.microsoft.com/en-us/azure/migrate/tutorial-assess-physical#set-up-an-azure-migrate-project
 
 
-* Create Windows server 2016 machine in **AWS** which will be used for Azure Migrate Appliance. 
+* **Create Windows server 2016 machine in AWS which will be used for Azure Migrate Appliance**. 
 (It is recommended that the replication appliance is deployed in the same VPC as the source VMs to be migrated. If the replication appliance needs to be in a different VPC, the VPCs need to be connected through VPC peering)
 Png (Windows EC2 VM for Replication Appliance) 
 
