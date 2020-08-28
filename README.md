@@ -15,11 +15,11 @@ Run the following commands to get the OS version & Kernel.
 
 If customer are **not in the supported Kernel**, then below are the option they have.
 
-* Workaround in this case is to install a supported version of the generic kernel (or switch to a supported version of a generic kernel that is available ) and test the system thoroughly before moving. 
+* Workaround in this case is to install a supported version of the generic kernel (or switch to a supported version of a generic kernel that is available ) and **test the system thoroughly before moving.**
  
 * Other options are to setup VMs in Parallel and then do the data migration or RSync to sync file system.
 
-## If there are in **supported version**, then you can leverage the below complete step by step instructions and learnings.
+## If **supported version**, then leverage below step by step instructions and learnings.
 
 
 **Discovery and assessment** tooling helps figure out what is running, how optimally system are running and what really need to migrate to the cloud.  
