@@ -1,4 +1,4 @@
-# Server Assessment of AWS EC2 Instances VM by Azure Migrate
+# Server Assessment of AWS EC2 Instances  by Azure Migrate
 
 ## Description
 Customer is looking to Migrate Ubuntu 16.04 EC2 instances hosted in AWS to Azure. Create a POC for this which discuss step by step instructions in migrating a Ubuntu 16.04 hosted in AWS to Azure by Azure Migrate.
